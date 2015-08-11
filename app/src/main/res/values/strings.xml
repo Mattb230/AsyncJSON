@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bottle Rocket Test</string>
+    <string name="fetch_text">Fetch Store Data</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_item">Store Information</string>
+
+    <string name="latitude_string">Latitude:</string>
+    <string name="longitude_string">Longitude:</string>
+    <string name="storeID_string">Store ID:</string>
+    <string name="address_string">Address:</string>
+    <string name="phone_string">Phone:</string>
+
+</resources>
