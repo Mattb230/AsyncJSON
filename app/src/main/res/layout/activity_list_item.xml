@@ -25,6 +25,7 @@
         android:layout_below="@id/name_textView"
         android:text="@string/address_string"
         android:textStyle="bold"
+        android:paddingRight="15dp"
         />
     <TextView
         android:id="@+id/address_textView"
@@ -32,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/name_textView"
         android:layout_toRightOf="@id/address_string_textView"
-        android:paddingLeft="3dp"/>
+        />
     <TextView
         android:id="@+id/phone_string_textView"
         android:layout_width="wrap_content"
@@ -47,7 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/address_textView"
         android:layout_toRightOf="@id/phone_string_textView"
-        android:paddingLeft="3dp"/>
+        android:layout_alignLeft="@id/address_textView"
+        />
 
 
     <TextView
@@ -64,7 +66,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/phone_textView"
         android:layout_toRightOf="@id/storeID_string_textView"
-        android:paddingLeft="3dp"/>
+        android:layout_alignLeft="@id/phone_textView"
+        />
 
 
     <TextView
@@ -81,7 +84,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/storeID_textView"
         android:layout_toRightOf="@id/latitude_string_textView"
-        android:paddingLeft="3dp"/>
+        android:layout_alignLeft="@id/phone_textView"
+        />
 
     <TextView
         android:id="@+id/longitude_string_textView"
@@ -97,7 +101,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/latitude_textView"
         android:layout_toRightOf="@id/longitude_string_textView"
-        android:paddingLeft="3dp"/>
+        android:layout_alignLeft="@id/phone_textView"
+        />
 
 
 
