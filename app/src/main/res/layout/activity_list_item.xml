@@ -47,7 +47,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/address_textView"
         android:layout_toRightOf="@id/phone_string_textView"
-        android:autoLink="phone"
         android:paddingLeft="3dp"/>
 
 

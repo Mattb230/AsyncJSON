@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\mboydston\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jar="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\pre-dexed\debug\classes-148799633ab3555361b6ffd6e5be636a458105ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c72e374317993fb4f09cc7d0f9e3adfedb3890ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Steve\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-1e5ba73a8f11850033edf5d687b409f3312e57f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\pre-dexed\debug\classes-2f21392f84654d6a3c8dc6750141f60fda8c931d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Steve\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="C:\Users\mboydston\AndroidStudioProjects\BottleRocketTest\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-de0a2c57e5fa414d37457e77405b57c522c63c23.jar" />
+        <dex dex="C:\Users\Steve\AndroidStudioProjects\AsyncJSON\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-72ae36e76daee68501b13f89ded485922a34f73e.jar" />
     </item>
 
 </items>
