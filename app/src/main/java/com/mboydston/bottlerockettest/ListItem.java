@@ -3,10 +3,13 @@ package com.mboydston.bottlerockettest;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -80,14 +83,30 @@ public class ListItem extends AppCompatActivity {
                 + getIntent().getStringExtra(EXTRA_STATE) + " "
                 + getIntent().getStringExtra(EXTRA_ZIP);
         mAddressTextView = (TextView)findViewById(R.id.address_textView);
-        mAddressTextView.setText(address);
+        SpannableString content = new SpannableString(address);
+        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+        mAddressTextView.setTextColor(Color.BLUE);
+        mAddressTextView.setText(content);
+
+        mAddressTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("google.navigation:q=" + mAddressTextView.getText().toString()));
+                startActivity(intent);
+            }
+        });
 
         phone = getIntent().getStringExtra(EXTRA_PHONE);
         mPhoneTextView = (TextView)findViewById(R.id.phone_textView);
-        mPhoneTextView.setText(phone);
+        content = new SpannableString(phone);
+        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+        mPhoneTextView.setTextColor(Color.BLUE);
+        mPhoneTextView.setText(content);
+
 
         //on click listener for phone number
-        /*mPhoneTextView.setOnClickListener(new View.OnClickListener() {
+        mPhoneTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String phone_number = mPhoneTextView.getText().toString().replace("-", "");
@@ -96,7 +115,7 @@ public class ListItem extends AppCompatActivity {
                 startActivity(dialIntent);
             }
         });
-        */
+
 
         storeID =  getIntent().getStringExtra(EXTRA_STOREID);
         mStoreIDTextView = (TextView)findViewById(R.id.storeID_textView);
